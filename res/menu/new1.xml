@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mysqldiary.New" >
+
+   <item  android:id="@+id/item1"
+        android:title="Home"/>
+   <item  android:id="@+id/item2"
+        android:title="Help"/>
+   <item  android:id="@+id/item3"
+        android:title="Faq"/>
+   <item  android:id="@+id/item4"
+        android:title="Contact Us"/>
+
+</menu>

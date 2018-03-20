@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mysqldiary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Team"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signin" />
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name=".Registration1"
+            android:label="@string/title_activity_registration1" >
+        </activity>
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name=".Database"
+            android:label="@string/title_activity_database" >
+        </activity>
+        <activity
+            android:name=".Ride"
+            android:label="@string/title_activity_ride" >
+        </activity>
+        <activity
+            android:name=".Member"
+            android:label="@string/title_activity_member" >
+        </activity>
+        <activity
+            android:name=".MainActivity1"
+            android:label="@string/title_activity_main_activity1" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_team" >
+        </activity>
+        <activity
+            android:name=".Driver1"
+            android:label="@string/title_activity_driver1" >
+        </activity>
+        <activity
+            android:name=".Rider1"
+            android:label="@string/title_activity_rider1" >
+        </activity>
+        <activity
+            android:name=".Whatsnew"
+            android:label="@string/title_activity_whatsnew" >
+        </activity>
+        <activity
+            android:name=".Source"
+            android:label="@string/title_activity_source" >
+        </activity>
+        <activity
+            android:name=".FullscreenActivity1"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_activity1"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".ScrollVIEW"
+            android:label="@string/title_activity_scroll_view" >
+        </activity>
+        <activity
+            android:name=".New"
+            android:label="@string/title_activity_new" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".Faq"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        <activity
+            android:name=".Message"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+    </application>
+
+</manifest>
